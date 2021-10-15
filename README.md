@@ -30,12 +30,12 @@ You want to create an initial starting Room, which will be the Room you return i
 * Randomly decide if the room has treasure (Should be a 1/10 chance)
 * Randomly decide if the room is lockec (Should be a 1/2 chance)
 * Randomly determine which keys are in that room. For each key possible, it should be a 1/10 chance that it is in that room.
-* Randomly determine if it has a left room (3/4 chance) and a right room (3/4 chance). 
+* Randomly determine if it has a left room (3/4 chance) and a right room (3/4 chance). This should become zero if it's distance from the head is equal to maxDepth.
 
 
-## Update main() to do the followingL: 10 pts
-* Create a boolean[] of lenght numKeys to represent foundKeys
-* Call generateRandomTreeGame(int numkeys, int maxDepth)
+## Update main() to do the following: 10 pts
+* Create a boolean[] of length numKeys to represent foundKeys
+* Call generateRandomTreeGame(int numkeys, int maxDepth). maxDepth must be at least 4
 * Print the Room generateRandomTreeGame returns. 
 
 
