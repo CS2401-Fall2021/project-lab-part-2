@@ -1,6 +1,6 @@
 # Project Lab Part 2:
 
-In this portion of your lab you will create Rooms in a tree structure and randomly generate a level. You may choose to use the code you wrote for part 1, or use the provided files for you.
+In this portion of your lab you will create Rooms in a tree structure and randomly generate a level. You may choose to use the code you wrote for part 1, or use the provided files for you. Please copy your files from the previous lab into this repo.
 
 ## Update Room Class: 10 pts
 Make your room class able to be a node in a tree. Unlike the trees we've seen in class, the nodes in this tree will know about it's parent. This just means we need both a Left Room and Right Room as well as a Previous (Parent) Room.
@@ -29,7 +29,7 @@ You want to create an initial starting Room, which will be the Room you return i
 * Randomly choose which key unlucks teh room (from 0 to numKeys-1)
 * Randomly decide if the room has treasure (Should be a 1/10 chance)
 * Randomly decide if the room is lockec (Should be a 1/2 chance)
-* Randomly determine which keys are in that room. For each key possible, it should be a 1/10 chance that it is in that room.
+* Randomly determine which keys are in that room. There can be 0-3 keys, each with equal probability. Randomly select the number of keys.
 * Randomly determine if it has a left room (3/4 chance) and a right room (3/4 chance). This should become zero if it's distance from the head is equal to maxDepth.
 
 
