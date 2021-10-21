@@ -1,5 +1,4 @@
-# Project Lab Part 2:
-
+# Project Lab Part 2 (Code Due Nov 2@ 12 Noon, Demo by Nov 9th@ 12 Noon)
 In this portion of your lab you will create Rooms in a tree structure and randomly generate a level. You may choose to use the code you wrote for part 1, or use the provided files for you. Please copy your files from the previous lab into this repo.
 
 ## Update Room Class: 10 pts
@@ -40,4 +39,14 @@ You want to create an initial starting Room, which will be the Room you return i
 
 
 ## Grading
-This lab will be demoed as well, please choose a timeslot on the following sheet
+This lab will be demoed as well, please choose a timeslot using calendly link below:
+
+https://calendly.com/mastephens-2/project-lab-part-1 
+
+### Reminders 
+* If you do not schedule by Nov 2, you will have one more day to schedule via email and recieve a 50% grade penalty for the inconvenience.
+* If you do not show up to your scheduled demo time, you will recieve a 0 on this lab
+* If you have a valid reason for no longer being able to attend, you must EMAIL mastephens@utep.edu with 24 hrs notice and your reason for cancelling and desired new times.
+
+
+
