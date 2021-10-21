@@ -7,7 +7,7 @@ Make your room class able to be a node in a tree. Unlike the trees we've seen in
 
 You should be able to do this via adding 3 fields
 
-## Re-Do Print Room: 30 pts
+## PrintTreeRoom(Room room, boolean[] keys: 30 pts
 Now when we get to the room we want to still perform the following steps (aka no change from part 1)
 
 * Print out the welcome message
