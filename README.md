@@ -27,9 +27,9 @@ In Part 1, we hard-coded a hallway. But in this game, we want to randomly genera
 You want to create an initial starting Room, which will be the Room you return in this method. For every room
 * Randomly select the welcome message from an array of 10 strings
 * Randomly choose which key unlucks teh room (from 0 to numKeys-1)
-* Randomly decide if the room has treasure (Should be a 1/10 chance)
-* Randomly decide if the room is lockec (Should be a 1/2 chance)
-* Randomly determine which keys are in that room. There can be 0-3 keys, each with equal probability. Randomly select the number of keys.
+* Randomly decide if the room has treasure (Should be a 1 in 10 chance)
+* Randomly decide if the room is lockes (Should be a 1 in 4 chance)
+* Randomly determine which keys are in that room. There can be 0-numKeys keys, each with equal probability. Randomly select the number of keys.
 * Randomly determine if it has a left room (3/4 chance) and a right room (3/4 chance). This should become zero if it's distance from the head is equal to maxDepth.
 
 
