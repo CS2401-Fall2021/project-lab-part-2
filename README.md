@@ -26,7 +26,7 @@ In Part 1, we hard-coded a hallway. But in this game, we want to randomly genera
 You want to create an initial starting Room, which will be the Room you return in this method. For every room:
 * Randomly select the welcome message from an array of 10 strings.
 * Randomly choose which key unlocks the room (from 0 to numKeys-1).
-* Randomly decide if the room has treasure (Should be a 1 in 10 chance).
+* Randomly decide if the room has treasure (Should be a 1 in 10 chance). However, If the room is at maxDepth, it should always contain treasure.
 * Randomly decide if the room is locked (Should be a 1 in 4 chance).
 * Randomly determine which keys are in that room. There can be 0-numKeys keys, each with equal probability. Randomly select the number of keys.
 * Randomly determine if it has a left room (3/4 chance) and a right room (3/4 chance). This should become zero if it's distance from the head is equal to maxDepth.
@@ -34,7 +34,7 @@ You want to create an initial starting Room, which will be the Room you return i
 
 ## Update main() to do the following: 10 pts
 * Create a boolean[] of length numKeys to represent foundKeys.
-* Call generateRandomTreeGame(int numkeys, int maxDepth). maxDepth must be at least 4.
+* Call generateRandomTreeGame(int numkeys, int maxDepth). These values will be changed in your demo.
 * Print the Room generateRandomTreeGame returns. 
 
 
@@ -44,9 +44,9 @@ This lab will be demoed as well, please choose a timeslot using calendly link be
 https://calendly.com/mastephens-2/project-lab-part-1 
 
 ### Reminders 
-* If you do not schedule by Nov 2, you will have one more day to schedule via email and recieve a 50% grade penalty for the inconvenience.
+* If you do not schedule by Nov 2, you will recieve a 0
 * If you do not show up to your scheduled demo time, you will recieve a 0 on this lab
-* If you have a valid reason for no longer being able to attend, you must EMAIL mastephens@utep.edu with 24 hrs notice and your reason for cancelling and desired new times.
+* If you have a valid reason for no longer being able to attend, or you need an extension, you must EMAIL mastephens@utep.edu with 24 hrs notice and your reason for cancelling and desired new times.
 
 
 
