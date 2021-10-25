@@ -20,7 +20,9 @@ But instead of "Return to the Hallway", we want to give the user options. We sho
 
 If a user inputs a valid option, then print out that room. Otherwise, re-prompt the user.
 
-## Implement method public Room generateRandomTreeGame(int numkeys, int maxDepth): 50 pts
+## IF YOU DO NOT REACH THIS POINT BY THE END OF CLASS TUESDAY, PLEASE COME TO OFFICE HOURS
+
+## Implement method public Room generateRandomTreeGame(int numkeys, int maxDepth): 60 pts
 In Part 1, we hard-coded a hallway. But in this game, we want to randomly generate a game. To generate a random number between 0 and 1, we can use Math.random(). If we want to generate a random integer between 0 and 10 we would need to do (int)(Math.random()*10)
 
 You want to create an initial starting Room, which will be the Room you return in this method. For every room:
